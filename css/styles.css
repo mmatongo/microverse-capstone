@@ -190,3 +190,17 @@ article h3 {
   font-family: "Lato";
   height: 67px;
 }
+
+/* Featured Speakers Section */
+
+.speakers {
+  font-family: 'Lato';
+  padding: 20px 0 0 0;
+  font-size: 1.1em;
+}
+
+#speakers-parent {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+}
