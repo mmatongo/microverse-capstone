@@ -247,12 +247,6 @@ article h3 {
   margin-bottom: 10px;
 }
 
-footer img {
-  border-radius: 50%;
-  width: 10%;
-  height: 10%;
-}
-
 .speakers img {
   width: 100%;
   height: 70%;
@@ -319,4 +313,32 @@ footer img {
   width: 135px;
   height: 100px;
   margin: 0;
+}
+
+/* Footer Section */
+
+.site-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+footer img {
+  width: 46%;
+  height: 5vh;
+  margin: 10px;
+}
+
+.footer-text {
+  font-size: 0.7em;
+  font-family: 'Lato';
+  margin-top: 10px;
+  margin-right: 5px;
+  text-align: initial;
+}
+
+footer {
+  height: 10vh;
 }
