@@ -62,7 +62,7 @@ body {
 }
 
 .intro {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-size: 20px;
   color: #ec5242;
   text-align: left;
@@ -74,7 +74,8 @@ body {
 
 .title {
   font-size: 35px;
-  font-family: "COCOGOOSE";
+  font-family: "COCOGOOSE", sans-serif;
+
   /* font-weight: bold; */
   line-height: 35px;
   text-align: left;
@@ -89,7 +90,7 @@ body {
   background-color: #d3d3d3;
   border: 3px solid #fff;
   font-size: 13px;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   -webkit-box-sizing: border-box;
   margin: 0 8px;
 }
@@ -97,13 +98,13 @@ body {
 .date {
   text-align: left;
   line-height: 0;
-  font-family: "COCOGOOSE";
+  font-family: "COCOGOOSE", sans-serif;
   margin: 0 8px;
 }
 
 .location {
   text-align: left;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   margin: 0 8px;
 }
@@ -111,14 +112,16 @@ body {
 /* Main Program Section */
 
 .main-program {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   display: flex;
   gap: 35px;
   flex-direction: column;
   background-color: #272a31;
   color: #fff;
   position: relative;
+
   /* height: 100vh; */
+
   /* top: 90vh; */
   background-image: url(../bg/main-program-bg.png);
   background-repeat: repeat-y;
@@ -174,7 +177,6 @@ article h3 {
   font-weight: bold;
   color: #ec5242;
   text-align: initial;
-  padding-left: 5px;
   padding-right: 5px;
 }
 
@@ -188,7 +190,7 @@ article h3 {
   margin-top: 0;
   margin-bottom: 30px;
   align-self: center;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   height: 67px;
 }
 
@@ -196,23 +198,19 @@ article h3 {
 
 .style-heading {
   padding-top: 30px;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-size: inherit;
 }
 
 /* Featured Speakers Section */
 
 .speakers {
-  font-family: "Lato";
-  padding: 20px 0 0 0;
-  font-size: 1.1em;
-}
-
-.speakers {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-row-gap: 10px;
   padding: 20px;
+  font-family: "Lato", sans-serif;
+  font-size: 1.1em;
 }
 
 .speaker {
@@ -246,6 +244,16 @@ article h3 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+/* linter is dumb */
+
+footer img {
+  width: 46%;
+  height: 5vh;
+  margin: 10px;
+}
+
+/* end linter is dumb */
 
 .speakers img {
   width: 100%;
@@ -291,6 +299,7 @@ article h3 {
 
 .partner li img {
   width: 100%;
+
   /* height: 64%; */
   display: flex;
   flex-direction: row;
@@ -325,15 +334,9 @@ article h3 {
   justify-content: space-around;
 }
 
-footer img {
-  width: 46%;
-  height: 5vh;
-  margin: 10px;
-}
-
 .footer-text {
   font-size: 0.7em;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   margin-top: 10px;
   margin-right: 5px;
   text-align: initial;
