@@ -10,14 +10,26 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <script defer src="./js/speakers.js"></script>
+    <script defer src="./js/menu.js"></script>
     <title>Capstone Project</title>
 </head>
 
 <body>
     <header class="top-bar">
-        <div class="hamburger">
-            <i class="material-icons">menu</i>
-        </div>
+        <nav class="hamburger">
+            <button type="button" class="btn" id="mobile_menu">
+              <i class="material-icons">menu</i>
+            </button>
+        </nav>
+        <ul class="nav-bar-list" id="nav_ul">
+            <li id="close-icon" class="close"><i class="material-icons">close</i></li>
+            <li onclick="menuClick()" class="border-bottom"><a>About</a></li>
+            <li onclick="menuClick()" class="border-bottom"><a>Program</a></li>
+            <li onclick="menuClick()" class="border-bottom"><a>Join</a></li>
+            <li onclick="menuClick()" class="border-bottom"><a>Sponsor</a></li>
+            <li onclick="menuClick()" class="border-bottom"><a>News</a></li>
+            <li onclick="menuClick()" id="orange" class="border-bottom"><a>CC Campaign</a></li>
+        </ul>
     </header>
     <section class="headline background">
         <p class="intro">"Hello! Sharing World."</p>
