@@ -1,0 +1,96 @@
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "cocogoose", sans-serif, "Lato", Times, serif;
+  color: #272a31;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 100%;
+}
+
+* a {
+  text-decoration: none;
+}
+
+/* Hamburger Menu Mobile Styling */
+
+.hamburger {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+/* Headline Section Styling */
+
+.background {
+  height: 100%;
+  position: absolute;
+  background-image: url(../bg/bg-mobile.png);
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center center;
+  background-position-x: left;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.intro {
+  font-family: "Lato";
+  font-size: 20px;
+  color: #ec5242;
+  text-align: left;
+  font-weight: bold;
+  line-height: 0;
+  margin-top: 100px; /* Need to find better solution */
+}
+
+.title {
+  font-size: 35px;
+  font-family: "COCOGOOSE";
+  /* font-weight: bold; */
+  line-height: 35px;
+  text-align: left;
+  background-image: url("../bg/header-txt-bg.png");
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro-text {
+  background-color: #d3d3d3;
+  border: 5px solid #fff;
+  font-size: 13px;
+  font-family: "Lato";
+  -webkit-box-sizing: border-box;
+}
+
+.date {
+  text-align: left;
+  line-height: 0;
+  font-family: "COCOGOOSE";
+}
+
+.location {
+  text-align: left;
+  font-family: "Lato";
+  font-size: 16px;
+}
+
+/* Main Program Section */
