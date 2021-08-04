@@ -50,6 +50,10 @@ body {
 
 /* Headline Section Styling */
 
+.black-container {
+  display: none;
+}
+
 .background {
   height: 80vh;
   position: relative;
