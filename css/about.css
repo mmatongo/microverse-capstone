@@ -1,0 +1,287 @@
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "cocogoose", sans-serif, "Lato", Times, serif;
+  color: #272a31;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 100%;
+}
+
+* a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Hamburger Menu Mobile Styling */
+
+.hamburger {
+  display: flex;
+  justify-content: flex-start;
+
+  /* align-items: center; */
+
+  padding: 8px;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+
+  /* Aestethics */
+
+  background-image: url(../bg/bg-mobile.png);
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center center;
+  background-position-x: left;
+}
+
+/* Headline Section Styling */
+
+.background {
+  height: 80vh;
+  position: relative;
+  background-image: url(../bg/bg-mobile.png);
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center center;
+  background-position-x: left;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.intro {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: #ec5242;
+  text-align: center;
+  font-weight: bold;
+  line-height: 0;
+  margin-top: 100px;
+  margin-left: 8px;
+}
+
+.title {
+  font-size: 33px;
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: bold;
+  line-height: 35px;
+  text-align: center;
+  color: #ec5242;
+  margin: 0 8px;
+}
+
+.intro-text {
+  background-color: #fff;
+  border: 3px solid #d3d3d3;
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+  -webkit-box-sizing: border-box;
+  margin: 0 8px;
+}
+.email-prompt {
+  text-align: center;
+  font-size: initial;
+  font-family: "Lato", sans-serif;
+  margin: 10px 8px;
+}
+
+.email {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin: 0 8px;
+}
+
+/* Main Program Section */
+
+.heading-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-line {
+  background-color: #ec5242;
+  border: 1px solid #ec5242;
+  width: 50px;
+  margin-top: 15px;
+}
+
+/* Header Styling */
+
+.style-heading {
+  padding-top: 30px;
+  font-family: "Lato", sans-serif;
+  font-size: inherit;
+}
+
+/* Featured Speakers Section */
+
+/* linter is dumb */
+
+footer img {
+  width: 46%;
+  height: 5vh;
+  margin: 10px;
+}
+
+/* end linter is dumb */
+
+/* Partners Section */
+
+#partners {
+  background-color: #272a31;
+}
+
+.ptn {
+  color: #d3d3d3;
+}
+
+.partner li img {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 0;
+  overflow: hidden;
+}
+
+.logo-container {
+  display: flex;
+  height: 90%;
+  margin: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.partner-logos {
+  width: 135px;
+  height: 100px;
+  margin: 0;
+}
+
+/* Footer Section */
+
+.site-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.footer-text {
+  font-size: 0.7em;
+  font-family: "Lato", sans-serif;
+  margin-top: 10px;
+  margin-right: 5px;
+  text-align: initial;
+}
+
+footer {
+  height: 10vh;
+}
+
+/* Mobile Menu stying */
+
+.nav-bar-list {
+  display: none;
+}
+
+.show {
+  display: inline;
+  background-color: #fff;
+  color: #272a31;
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  text-align: center;
+  line-height: 44px;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  right: 0;
+  list-style: none;
+  z-index: 9;
+  padding: 0;
+}
+
+.close {
+  font-size: 30px;
+  font-weight: lighter;
+  cursor: pointer;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+.nav-bar-list li {
+  color: #272a31;
+}
+
+#orange {
+  color: #ec5242;
+}
+
+/* Scaffolding */
+
+.warsaw {
+  width: 80%;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.baires {
+  width: 80%;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.prev-text {
+  font-family: "Lato";
+  font-size: initial;
+  margin: 8px;
+}
+
+.conference-image-parent {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.conference-image-child:hover {
+  filter: invert(14%) sepia(43%) saturate(1469%) hue-rotate(348deg)
+    brightness(100%) contrast(93%);
+  opacity: 0.7;
+}
