@@ -1,13 +1,18 @@
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("../assets/cocogoose.otf");
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: "cocogoose", sans-serif, "Lato", Times, serif;
+  font-family: "COCOGOOSE", sans-serif, "Lato", Times, serif;
   color: #272a31;
   text-align: center;
   font-size: 20px;

@@ -1,6 +1,11 @@
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("../assets/cocogoose.otf");
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
