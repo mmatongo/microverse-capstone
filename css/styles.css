@@ -450,6 +450,7 @@ footer {
   .menu-logo {
     height: 4vh;
     margin-right: 7rem;
+    display: block;
   }
 
   .hamburger {
@@ -606,9 +607,5 @@ footer {
     width: 20rem;
     height: 15rem;
     margin: 0;
-  }
-
-  .menu-logo {
-    display: block;
   }
 }

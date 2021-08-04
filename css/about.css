@@ -335,6 +335,7 @@ footer {
   .menu-logo {
     height: 4vh;
     margin-right: 7rem;
+    display: block;
   }
 
   .hamburger {
@@ -439,9 +440,5 @@ footer {
     opacity: 1;
     transition: 0.5s ease;
     backface-visibility: hidden;
-  }
-
-  .menu-logo {
-    display: block;
   }
 }
