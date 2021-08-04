@@ -73,6 +73,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   gap: 20px;
+  height: 100%;
 }
 
 .intro {
@@ -121,6 +122,7 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   margin: 0 8px;
+  padding-bottom: 20px;
 }
 
 /* Main Program Section */
@@ -162,6 +164,7 @@ footer img {
 
 #partners {
   background-color: #272a31;
+  height: 100%;
 }
 
 .ptn {
@@ -304,6 +307,14 @@ footer {
     invert(14%) sepia(43%) saturate(1469%) hue-rotate(348deg)
     brightness(100%) contrast(93%);
   opacity: 0.7;
+}
+
+.conference-image-child:active {
+  filter: none;
+}
+
+.summit {
+  height: 100%;
 }
 
 @media only screen and (min-width: 768px) {
