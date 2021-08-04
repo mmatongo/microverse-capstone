@@ -2,16 +2,30 @@
 
 > Capstone Project repo 
 
+#### Home Page
 
-![screenshot](./img/)
+![screenshot](./img/screenshot1.png)
+
+![screenshot](./img/menu-screenshot.png)
+
+#### About Page
+
+![screenshot](./img/about-scr.png)
+
 
 ## Built With
 
 - HTML
 - CSS
+- JavaScript
 
 ## Live Demo
 [Live Demo](https://mmatongo.github.io/capstone-project/)
+
+## Walkthrough
+[Click Here](https://www.loom.com/share/c7c914be69004689994da70535706a25)
+
+> Note that multiple changes may have been implemented since the creation of this videos.
 
 ## Getting Started
 
