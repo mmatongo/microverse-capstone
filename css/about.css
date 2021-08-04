@@ -288,3 +288,139 @@ footer {
     brightness(100%) contrast(93%);
   opacity: 0.7;
 }
+
+@media only screen and (min-width: 768px) {
+  .black-thing {
+    background: #3e3e3e;
+    height: 4vh;
+    width: 100%;
+    color: #fff;
+    display: block;
+  }
+
+  .black-container {
+    width: 38%;
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    gap: 13px;
+    height: 100%;
+    align-items: center;
+    font-size: 14px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  .top-bar-txt {
+    font-family: "Lato", sans-serif;
+  }
+
+  .menu-logo {
+    height: 4vh;
+    margin-right: 7rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .nav-bar-list {
+    display: flex;
+    font-family: "Lato", sans-serif;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .background {
+    height: 100vh;
+    position: relative;
+    background-image: url(../bg/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .intro {
+    display: none;
+  }
+
+  .title {
+    font-size: 4em;
+    line-height: 100%;
+    margin: 81px;
+    margin-bottom: 60px;
+  }
+
+  .intro-text {
+    background-color: #f7f7f7;
+    border: 3px solid #fff;
+    line-height: 27px;
+    margin: 0 200px;
+    padding: 50px;
+    padding-right: 100px;
+  }
+
+  .email {
+    font-size: 20pt;
+    font-weight: 800;
+  }
+
+  .fumba {
+    font-size: 15pt;
+    margin: 60px;
+    font-family: -webkit-pictograph, sans-serif;
+  }
+
+  .previous {
+    margin-top: 60px;
+  }
+
+  footer img {
+    width: 12%;
+    height: 4vh;
+    margin: 10px;
+  }
+
+  .conference-image-parent {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    gap: 15px;
+  }
+
+  .partner {
+    height: 40vh;
+  }
+
+  .partner-logos {
+    width: 20rem;
+    height: 15rem;
+    margin: 0;
+  }
+
+  .warsaw {
+    width: 100%;
+    opacity: 1;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+
+  .baires {
+    width: 100%;
+    opacity: 1;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+}
