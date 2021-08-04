@@ -48,6 +48,10 @@ body {
   background-position-x: left;
 }
 
+.menu-logo {
+  display: none;
+}
+
 /* Headline Section Styling */
 
 .background {

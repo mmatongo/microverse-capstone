@@ -88,6 +88,10 @@ body {
   margin: 0 8px;
 }
 
+.menu-logo {
+  display: none;
+}
+
 .intro-text {
   background-color: #fff;
   border: 3px solid #d3d3d3;
