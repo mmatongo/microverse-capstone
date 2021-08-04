@@ -48,6 +48,10 @@ body {
   background-position-x: left;
 }
 
+.about-logo {
+  width: 40%;
+}
+
 /* Headline Section Styling */
 
 .black-container {
@@ -435,5 +439,9 @@ footer {
     opacity: 1;
     transition: 0.5s ease;
     backface-visibility: hidden;
+  }
+
+  .menu-logo {
+    display: block;
   }
 }

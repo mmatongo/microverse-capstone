@@ -607,4 +607,8 @@ footer {
     height: 15rem;
     margin: 0;
   }
+
+  .menu-logo {
+    display: block;
+  }
 }
