@@ -414,7 +414,7 @@ footer {
 
   .nav-bar-list {
     display: flex;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     flex-direction: row;
     list-style: none;
     gap: 60px;
@@ -470,6 +470,7 @@ footer {
     font-family: "COCOGOOSE", sans-serif;
     margin: 0 100px;
   }
+
   .location {
     text-align: left;
     font-family: "Lato", sans-serif;
@@ -490,6 +491,7 @@ footer {
     flex-flow: column;
     justify-content: center;
     margin: 5px;
+
     /* margin-bottom: 5px; */
     gap: 5px;
     margin-right: 5px;
@@ -518,6 +520,12 @@ footer {
   }
 
   /* Speaker Section */
+
+  footer img {
+    width: 12%;
+    height: 4vh;
+    margin: 10px;
+  }
 
   .speakers img {
     width: 68%;
@@ -552,11 +560,5 @@ footer {
     width: 20rem;
     height: 15rem;
     margin: 0;
-  }
-
-  footer img {
-    width: 12%;
-    height: 4vh;
-    margin: 10px;
   }
 }
