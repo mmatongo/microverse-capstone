@@ -20,7 +20,7 @@
 - JavaScript
 
 ## Live Demo
-[Live Demo](https://mmatongo.github.io/capstone-project/)
+[Live Demo](https://mmatongo.github.io/microverse-capstone/)
 
 ## Walkthrough
 [Click Here](https://www.loom.com/share/c7c914be69004689994da70535706a25)
